@@ -10,7 +10,7 @@ export default function Home() {
   if (status === 'error') return <Layout title="home">{'Error'}</Layout>
   return (
     <Layout title="home">
-      <p className="my-5 text-blue-500 text-xl font-bold">
+      <p className="my-5 text-xl font-bold text-blue-500">
         Fetching by useQuery
       </p>
       <ul>
@@ -20,10 +20,10 @@ export default function Home() {
       </ul>
 
       <Link href="/read-cache" passHref>
-        <div className="mt-20 flex items-center cursor-pointer">
-          <ChevronDoubleRightIcon className="h-5 w-5 mx-1 text-blue-500" />
+        <div className="flex items-center mt-20 cursor-pointer">
+          <ChevronDoubleRightIcon className="w-5 h-5 mx-1 text-blue-500" />
         </div>
       </Link>
-    </Layout>
+      </Layout>
   )
-}
+        }
