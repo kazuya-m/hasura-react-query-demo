@@ -1,0 +1,15 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "eslint.validate": ["json", "javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "cSpell.words": ["Swiper", "gtag", "heroicons", "microcms", "semibold"],
+  "css.validate": false,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "cSpell.ignoreWords": ["browserconfig", "msapplication"]
+}

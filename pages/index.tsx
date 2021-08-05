@@ -10,9 +10,7 @@ export default function Home() {
   if (status === 'error') return <Layout title="home">{'Error'}</Layout>
   return (
     <Layout title="home">
-      <p className="my-5 text-xl font-bold text-blue-500">
-        Fetching by useQuery
-      </p>
+      <p className="my-5 text-xl font-bold text-blue-500">Fetching by useQuery</p>
       <ul>
         {data?.map((rocket) => (
           <RocketItem key={rocket.id} rocket={rocket} />
@@ -24,6 +22,6 @@ export default function Home() {
           <ChevronDoubleRightIcon className="w-5 h-5 mx-1 text-blue-500" />
         </div>
       </Link>
-      </Layout>
+    </Layout>
   )
-        }
+}
